@@ -128,6 +128,8 @@ function table($type) {
 						echo '<td class="d-none d-lg-table-cell"><a target="_blank" href="'.$child->permalink().'">'.$friendlyURL.'</a></td>';
 						}
 
+						echo '<td class="pt-3">'.$page->category().'</td>';
+						
 						echo '<td class="contentTools pt-3 text-center d-sm-table-cell">'.PHP_EOL;
 						if ($type=='published' || $type=='static' || $type=='sticky') {
 						echo '<a class="text-secondary d-none d-md-inline" target="_blank" href="'.$child->permalink().'"><i class="fa fa-desktop"></i>'.$L->g('View').'</a>'.PHP_EOL;
