@@ -67,7 +67,7 @@ function table($type) {
 		echo '<th class="border-0 d-none d-lg-table-cell" scope="col">'.$L->g('URL').'</th>';
 	}
 
-    echo '			<th class="border-0 text-center d-sm-table-cell" scope="col">Category</th>';
+    echo '			<th class="border-0 text-center d-sm-table-cell" scope="col">'.$L->g('Category').'</th>';
 
 	echo '			<th class="border-0 text-center d-sm-table-cell" scope="col">'.$L->g('Actions').'</th>
 			</tr>
