@@ -97,7 +97,7 @@ function table($type) {
 					echo '<td class="d-none d-lg-table-cell"><a target="_blank" href="'.$page->permalink().'">'.$friendlyURL.'</a></td>';
 					}
 
-					echo '<td class="pt-3">'.$child->category().'</td>';
+					echo '<td class="pt-3">'.$page->category().'</td>';
 
 					echo '<td class="contentTools pt-3 text-center d-sm-table-cell">'.PHP_EOL;
 					echo '<a class="text-secondary d-none d-md-inline" target="_blank" href="'.$page->permalink().'"><i class="fa fa-desktop"></i>'.$L->g('View').'</a>'.PHP_EOL;
