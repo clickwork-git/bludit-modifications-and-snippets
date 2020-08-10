@@ -1,0 +1,11 @@
+{
+	"author": "Bludit",
+  "author": "Clickwork",
+	"email": "",
+	"website": "https://plugins.bludit.com",
+	"version": "3.13.1",
+	"releaseDate": "2020-08-10",
+	"license": "MIT",
+	"compatible": "3.13.1",
+	"notes": "Plugin based in the default plugin Navigation."
+}
