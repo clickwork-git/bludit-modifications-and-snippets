@@ -1,0 +1,10 @@
+{
+	"plugin-data":
+	{
+		"name": "One-Page-Menü",
+		"description": "Menü für One-Page-Websites."
+	},
+	"home-link": "Hauptseite zeigen",
+	"show-the-home-link-on-the-sidebar": "Show the home link on the sidebar.",
+	"amount-of-items": "Anzahl Inhalte"
+}
